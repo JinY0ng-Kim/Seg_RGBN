@@ -1,8 +1,8 @@
 # Seg_RGBN
 Crop/Weed Segmentation using U-net with RGB+NIR dataset
-* A 1x1 Convolution was added after two 3x3 Convolutions in the U-net architecture
-* The NIR channel was concatenated to the RGB channels, resulting in a 4-channel input, which was used as the model input
-* Input was resized from 1294x964 to 640x480.
+* A 1x1 Convolution is added after two 3x3 Convolutions in the U-net architecture
+* The NIR channel is concatenated to the RGB channels, resulting in a 4-channel input, which is used as the model input
+* Input is resized from 1294x964 to 640x480.
 
 # Dataset
 Sunflower Dataset http://www.diag.uniroma1.it/~labrococo/fsd/sunflowerdatasets.html
